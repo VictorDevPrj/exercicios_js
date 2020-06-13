@@ -1,0 +1,10 @@
+console.log(7/0)
+console.log("10" / 2)
+console.log('3' + 2)
+console.log('3' - 2)
+console.log(10 / 0.8)
+console.log(10 / 0.08)
+console.log(10 / 0.010)
+//console.log(150.toString())
+console.log((10.344999).toFixed(2))
+

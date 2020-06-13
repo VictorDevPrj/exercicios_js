@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercicios HTML</title>
+    <style>
+        #conteudo{
+            padding: 30px 0px;
+        }
+    </style>
+ 
+</head>
+
+<body>
+
+    <header>
+        Exercicios HTML
+    </header>
+
+    <nav>
+        <a href wm-nav="exercicios/teste.html">00 - Teste<br/></a>
+        <a href wm-nav="exercicios/texto1.html">01 - Texto - 1<br/></a>
+        <a href wm-nav="exercicios/texto2.html">02 - Texto - 2<br/></a>
+        <a href wm-nav="exercicios/listas.html">03 - Listas<br/></a>
+        <a href wm-nav="exercicios/listaAninhada.html">04 - Lista aninhada<br/></a>
+
+
+    </nav>
+
+    <section id="conteudo">
+
+    </section>
+
+    <footer>
+    
+        Curso WEB
+
+    </footer>
+
+
+
+    <script>
+        document.querySelectorAll('[wm-nav]').forEach(link => {  // interceptar o click do mouse 
+            const conteudo = document.getElementById('conteudo')
+            
+            link.onclick = function (e) {                 // o forEach esta percorrendo todos os links da pagina
+                e.preventDefault()
+                fetch(link.getAttribute('wm-nav'))       //<-- OU -->     //fetch(link.href)      // requisição ajax //antes usava xml http request || pode usar getAtribute
+                    .then(resp => resp.text())          // resp.text() pegar conteudo html
+                    .then(html => conteudo.innerHTML = html)
+            }
+        })
+    </script>
+
+</body>
+
+</html>
