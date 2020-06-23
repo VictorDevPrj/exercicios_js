@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cabecalho {
+    width: 1920px;
+    height: 44px;
+    background: #29487de5;
+}
+
+div {
+    float: left;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    background: #1c3d77;
+    border-radius: 2px;
+}
+
+.logo{
+    padding-top: 9.5px;
+    margin-left: 350px;
+}
+
+.logo img{
+    width: 28px;
+    height: 25px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+.pesquisa {
+    margin-left: 10px;
+    margin-top: 9.5px;
+    /*border: solid 1px fff;
+    background-color:#ffffff;
+    width: 400px;
+    height: 25px;
+    border-radius: 2px;*/
+}
+
+input, textarea, select {
+    outline: 0;
+}
+
+.txtBusca {  
+    width: 350px;
+    height: 23px;
+    color: black;
+}
+
+.pesquisa img {
+    position: absolute;
+    width: 28px;
+    height: 25px;
+    margin-top: 1px;
+    border: none;
+}
+
+.mini-foto-perfil {
+    background-size: 1px;
+    width: 80px;
+    height: 26px;
+    margin-top: 9.5px;
+    margin-left: 45px;
+    border: none 1px black;
+    border-radius: 2px;
+}
+
+
+.mini-foto-perfil a {
+    position: absolute;
+    margin-top: 0px;
+    color: #fff;
+    width: 80px;
+    height: 26px;
+
+}
+
+.mini-foto-perfil a img {
+    padding: 3px;
+    height: 20px;
+    border-radius: 23px;
+    border: none;
+    position: relative;
+}
+
+
+a p {
+    float: right;
+    position: relative;
+    margin: 2px;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+.link-pag-ini {
+    margin-top: 15px;
+    margin-left: 10px; 
+}
+
+.link-pag-ini a{
+    border: none 1px black;
+    padding: 4px;
+}
+
+.encontrar-amigos {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.encontrar-amigos a {
+    border: none 1px black;
+    padding: 4px;
+}
+
+.criar {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.criar a {
+    border: none 1px black;
+    padding: 4px;
+}
+
+.btn-solc-amizade {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none 1px black;
+}
+
+.btn-solc-amizade a{
+    background: none;
+}
+
+.btn-solc-amizade a img {
+    width: 30px;
+    height: 27px;
+}
+
+.btn-msg {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none 1px black;
+}
+
+.btn-msg a{
+    background: none;
+}
+
+.btn-msg a img {
+    width: 30px;
+    height: 27px;
+}
+
+.btn-sino {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none 1px black;
+}
+
+.btn-sino a{
+    background: none;
+}
+
+.btn-sino a img {
+    width: 30px;
+    height: 27px;
+}
+
+.btn-ajuda {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none 1px black;
+}
+
+.btn-ajuda a{
+    background: none;
+}
+
+.btn-ajuda a img {
+    width: 30px;
+    height: 27px;
+}
+/*
+.btn-seta {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none 1px black;
+}
+
+.btn-seta a{
+    background: none;
+}
+
+.btn-seta a img {
+    width: 30px;
+    height: 27px;
+}
+
+*/
+
+.btn-seta {
+    width: 0; 
+    height: 0; 
+    margin-top: 18px;
+    margin-left: 15px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #000000;
+    border-radius: 3px;
+}

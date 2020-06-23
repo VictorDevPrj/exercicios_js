@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anatomia CSS</title>
+    <style>
+        .selector {
+            color: #3e4;
+            font-size:  40px;
+            text-align:  center;
+            border: solid  5px navy; 
+            font-family: sans-serif, monospace;
+            width: calc(100% - 100px);
+            background-color: rgba(140, 130, 10, .6);
+        }
+
+        /* Usando uma pseudo-classe  */
+        /* :hover sera aplicada quando mouse do usuario passar por cima de um componente */
+        .selector:hover {
+            background-color: black;
+        }
+
+        /* Usando um pseudo-elemento */
+
+        .selector::first-letter {
+            font-size: 70px;
+            background-color: red;
+            margin: auto;
+            font-weight: bolder;
+        }
+
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="selector">Conteúdo</div>
+</body>
+
+</html>
