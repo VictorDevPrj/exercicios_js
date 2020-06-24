@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Oswald;
+    color: #fff;
+    font-size: 15px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-basis: 1920px;
+    height: 40px; 
+    background-color: #4267b2;
+    align-items: center;
+}
+
+img {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-mini {
+    background-color: #fff;
+    height: 24px;
+    border: none;
+    margin-left: 400px;
+    border-radius: 2px;
+}
+
+.barra-pesquisa {
+    display: flex;
+    margin-left: 5px;
+    border: none;
+    flex-basis: 400px;
+}
+
+.barra-pesquisa input {
+    width: 92%;
+    color: seagreen;
+    border-radius: 2px;
+    border: none;
+    height: 24px;
+    box-sizing: border-box;
+}
+
+.barra-pesquisa img {
+    background-color: #eee;
+    margin-left: -1px;
+    border: none;
+    border-radius: 0 2px 2px 0;
+}
+
+input, textarea, select {
+    outline: 0;
+}
+
+.place-text{
+    padding-left: 6px; 
+}
+
+.perfil-mini {
+    display: flex;
+    margin: 0px 3px;
+}
+
+.nome-perfil-mini {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.menu-cabecalho{
+    height: 24px;
+    flex-grow: 10;
+    border: none;
+}
+
+.menu-cabecalho ul,
+.menu-cabecalho ul li,
+.menu-cabecalho ul li img{
+    height: 24px;
+}
+
+.menu-cabecalho .menu-1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.menu-cabecalho li {
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.img-nome {
+    margin-left: 0px;
+}
+
+.img-01, 
+.img-02,
+.img-05{
+    border-radius: 12px;
+}
+
