@@ -1,8 +1,10 @@
+/* importando FONTE */
 @font-face {
     font-family: Oswald;
     src: url(../fonts/Oswald-VariableFont_wght.ttf)
 }
 
+/* EFEITO PADRAO */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,17 @@
     font-size: 15px;
 }
 
+body {
+    background-color: #e9ebee;
+}
+
+li {
+    list-style: none;
+}
+
+/* ----------------------------- */
+
+/* INICIO DO CABECALHO */
 .cabecalho {
     display: flex;
     flex-basis: 1920px;
@@ -19,16 +32,19 @@
     align-items: center;
 }
 
+/* TAMANHO PADRAO PARA IMAGENS*/
 img {
     width: 24px;
     height: 24px;
 }
+/* ----------------------------- */
 
+/* LOGO PEQ -- BARRA DE PESQUISA */
 .logo-mini {
     background-color: #fff;
     height: 24px;
     border: none;
-    margin-left: 400px;
+    margin-left: 479px;
     border-radius: 2px;
 }
 
@@ -63,6 +79,9 @@ input, textarea, select {
     padding-left: 6px; 
 }
 
+/* ----------------------------- */
+
+/* NAV CABECALHO */
 .perfil-mini {
     display: flex;
     margin: 0px 3px;
@@ -93,7 +112,6 @@ input, textarea, select {
 
 .menu-cabecalho li {
     margin: 0px 10px;
-    list-style: none;
 }
 
 .img-nome {
@@ -106,3 +124,144 @@ input, textarea, select {
     border-radius: 12px;
 }
 
+.btn-seta {
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid #000000;
+    border-radius: 3px;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
+
+/* CONTAINNER PRINCIPAL */
+.containner-principal {
+    
+    margin: 0px 478px 0px 478px;
+    height: 1500px;
+    border: none 1px black;
+    display: flex;
+}
+
+/* MENU PRINCIPAL */
+.menu-principal {
+    width: 180px;
+    height: 1500px;
+}
+
+.img-perfil img{
+    margin: 10px 5px 5px 5px;
+    height: 170px;
+    width: 170px;
+    border-radius: 90px;
+}
+
+.nome-pag {
+    height: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: #1c1e21ef;
+}
+.nome-pag:hover {
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+}
+
+
+.link-pag {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #1c1e2191;
+}
+
+.menu-lateral {
+    width: 180px;
+    height: 252px;
+}
+
+.menu-lateral ul li {
+    color: #1d2129;
+    font-size: 14px;
+    margin: 4px 4px 4px 0px;
+    padding: 5px 4px 5px 5px;
+}
+
+.menu-lateral ul .btn-inicial{
+    font-weight: 600;
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+}
+
+.menu-lateral ul .btn-hover:hover{
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    border-radius: 2px;
+}
+
+.menu-lateral button {
+    margin-top: 15px;
+    color: #fff;
+    background-color: #42b72a;
+    border-color: #42b72a;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 13px;
+    padding: 0px 4px;
+    width: 100px;
+    height: 24px;
+    line-height: 22px;
+}
+
+/* ----------------------------- */
+
+/* CONTEUDO DO SITE  */
+.conteudo-principal {
+    margin-left: 5px;
+    width: 761px;
+    height: 1500px;
+}
+/* ----------------------------- */
+
+/* IMAGEM CAPA */
+.img-capa {
+    height: 316px;
+}
+.img-capa img{
+    width: 761px;
+    height: 316px;
+}
+/* ----------------------------- */
+
+/* CONTAINER MENU CAPA*/
+.container-menu-capa {
+    width: 761px;
+    height: 50px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0px 15px;
+}
+
+.btn-curtir {
+    width: 80px;
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    display: flex;
+    align-items: center;
+}
+
+.text-c01 {
+    color: #4b4f56;
+    font-size: 12px;
+    padding: 0px;
+}
+.text-c02{
+    color: #4b4f56;
+}
+
+/* ----------------------------- */
+/* ----------------------------- */
