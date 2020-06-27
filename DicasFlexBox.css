@@ -1,0 +1,26 @@
+/*
+--------- CSS -----------------
+--------- FLEX BOX -----------
+flex-direction: row --> vem por padrao linha main axi 
+flex-direction: column --> pode mudar para coluna 
+
+flex-wrap:
+
+
+justify-content: essa opcao alinha com base no maix axi
+align-itens: essa opcao alinha com base no cross axi
+
+align-self: alinhamento especifico a um item --> essa opcao sobrepoem (align-iten)
+flex-grow: proporcao de crescimento por padrao vem 0.
+
+
+align-content: alinhas as multiplas linhas
+
+
+
+
+
+
+
+
+*/
